@@ -3,11 +3,14 @@ body{
 	font-family: 'Bona Nova', serif;
 font-family: 'Montserrat', sans-serif;
 margin: 0;
-padding: 0;
+text-align: justify;
 }
 h1{
 	font-size: 50px ;
 	color: black;
+}
+h2{
+	font-size: 30px;
 }
 .ornge{
 	color: orange;
@@ -18,7 +21,7 @@ h1{
 }
 .half-width{
 	width: 50%;
-	padding-left: 5%;
+	padding-left:5%;
 }
 .half-width img{
 	width: 80%;
@@ -40,4 +43,32 @@ h1{
 	background-image: url('images/dream-bg.png');
 	background-repeat: no-repeat;
 	background-position: right;
+}
+.experience{
+	background-image: url('images/exp-bg.png');
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.experience-item{
+	box-shadow: 10px 10px 40px gray;
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left:20px;
+	padding-right: 10px;
+	border-radius:5px ;
+}
+#web-developer-exp1{
+    border-left: 7px solid;
+	border-image: linear-gradient(orange, rosybrown);
+	border-image-slice: 1;
+}
+#web-developer-exp2{
+    border-left: 7px solid;
+	border-image: linear-gradient(blue, skyblue);
+	border-image-slice: 4;
+}
+footer p{
+	text-align: center;
 }
